@@ -158,8 +158,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ConsoleLogger.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Headers\ConsoleLogger.cpp" />
+    <ClCompile Include="Headers\main.cpp" />
+    <ClCompile Include="Headers\Md5.cpp" />
+    <ClCompile Include="Headers\md5utilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Matterbot\Matterbot.vcxproj">
@@ -167,9 +169,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="EchoCommand.h" />
-    <ClInclude Include="ConsoleLogger.h" />
-    <ClInclude Include="ReverseCommand.h" />
+    <ClInclude Include="Headers\CheckTime.h" />
+    <ClInclude Include="Headers\EchoCommand.h" />
+    <ClInclude Include="Headers\ConsoleLogger.h" />
+    <ClInclude Include="Headers\hashslingingslasher.h" />
+    <ClInclude Include="Headers\Hashmaker.h" />
+    <ClInclude Include="Headers\Md5.h" />
+    <ClInclude Include="Headers\Md5Utilities.h" />
+    <ClInclude Include="Headers\string_to_md5.h" />
+    <ClInclude Include="Headers\Weather.h" />
+    <ClInclude Include="Headers\ReverseCommand.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
